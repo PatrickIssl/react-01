@@ -3,7 +3,7 @@ import "./Card.css";
 
 export default (props) => (
   <div className="Card">
-    <div className="Conteudo">{props.children}</div>
+    <div className="Content">{props.children}</div>
     <div className="Footer">{props.titulo}</div>
   </div>
 );

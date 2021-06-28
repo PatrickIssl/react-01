@@ -1,6 +1,6 @@
 import { from } from "pumpify";
 import React from "react";
-import produtos from "../data/produtos";
+import produtos from "../../data/produtos";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default (props) => {

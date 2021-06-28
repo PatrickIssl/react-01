@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import Primeiro from "./components/Primeiro";
+import Primeiro from "./components/basicos/Primeiro";
 import Card from "./components/layout/Card";
-import ComParametro from "./components/ComParametro";
-import ComFilhos from "./components/ComFilhos";
-import Repeticao from "./components/Repeticao";
-import Condicional from "./components/Condicional";
-import CondicionalComIf from "./components/CondicionalComIf";
+import ComParametro from "./components/basicos/ComParametro";
+import ComFilhos from "./components/basicos/ComFilhos";
+import Repeticao from "./components/basicos/Repeticao";
+import Condicional from "./components/basicos/Condicional";
+import CondicionalComIf from "./components/basicos/CondicionalComIf";
 // eslint-disable-next-line import/no-anonymous-default-export
 export default (propos) => (
   <div className="App">
