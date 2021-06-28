@@ -17,8 +17,9 @@ export default (props) => {
     const novoArray = Array(props.qtdeNumero)
       .fill(0)
       .reduce((a, e) => {
-        console.log(a, e);
-        return [...a, gerarNumerosNaoContido(a)];
+        const novoNumero = gerarNumerosNaoContido(a);
+        console.log(a, e, novoNumero);
+        return [...a, novoNumero];
       }, [])
       .sort((a, b) => a - b);
     setNumeros(novoArray);
